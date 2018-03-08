@@ -17,7 +17,7 @@ Springboot版的音乐网站（网易云音乐） [网站预览](http://music.zh
 | 模块 | 释义 |  
 |-----|-----|  
 | music-core | 项目核心包，提供基本的数据访问、工具处理等 |  
-| music-web | 前端页面模块，主要为 controller -> html |  
+| music-web | 前端页面模块，依赖于music-core，主要为 controller -> html |  
 
 
 ## 生命不息，折腾不止！
