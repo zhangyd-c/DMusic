@@ -12,9 +12,7 @@
         </encoder>
     </appender>
 
-    <logger name="backend" level="info"/>
-
-    <root level="info">
+    <root level="ERROR">
         <appender-ref ref="STDOUT" />
     </root>
 </configuration>

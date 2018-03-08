@@ -41,7 +41,7 @@
     </dependencies>
 
     <build>
-        <finalName>music-core</finalName>
+        <finalName>music-web</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

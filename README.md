@@ -12,6 +12,13 @@ Springboot版的音乐网站（网易云音乐） [网站预览](http://music.zh
 | Maven | 3.3.1 |  
 | Springboot | 1.5.9.RELEASE |  
 
+### 模块依赖
+
+| 模块 | 释义 |  
+|-----|-----|  
+| music-core | 项目核心包，提供基本的数据访问、工具处理等 |  
+| music-web | 前端页面模块，主要为 controller -> html |  
+
 
 ## 生命不息，折腾不止！
 ### 更多信息，请关注：
