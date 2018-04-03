@@ -1,6 +1,6 @@
-# My音乐馆
+# DMusic
 
-Springboot版的音乐网站（网易云音乐） [网站预览](http://music.zhyd.me)
+DMusic是使用Springboot开发的、下载即可用、简单大气上档次的个人音乐博客 [网站预览](http://music.zhyd.me)
 
 ### 开发环境
 
