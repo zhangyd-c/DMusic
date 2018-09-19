@@ -1,14 +1,12 @@
 ﻿(function ($) {
     /*显示歌词部分*/
     var tflag = 0;//存放时间和歌词的数组的下标
-    var lytext = new Array();//放存汉字的歌词
-    var lytime = new Array();//存放时间
-    console.group("关于本站");
-    console.log("写博客、记日志、闲聊扯淡鼓捣技术\n志同道合者欢迎进QQ交流群（190886500）");
-    console.groupEnd();
+    var lytext = [];//放存汉字的歌词
+    var lytime = [];//存放时间
     console.log("%c生活真他妈好玩，因为生活老他妈玩我！", "color:green;font-size:20px;font-weight:blod");
     console.groupEnd();
-    console.log("爱tm谁谁谁...");
+    console.log("别扒了，本站早就开源了：https://gitee.com/yadong.zhang/music");
+    console.log("地址告诉你了， 爱看不看");
     // Settings
     var repeat = localStorage.repeat || 0,
             shuffle = localStorage.shuffle || 'false',

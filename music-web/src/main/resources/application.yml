@@ -19,7 +19,7 @@ spring:
     datasource:
         type: com.alibaba.druid.pool.DruidDataSource
         driver-class-name: com.mysql.jdbc.Driver
-        url: jdbc:mysql://localhost:3306/blog
+        url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
         username: root
         password: root
     application:
@@ -64,12 +64,12 @@ spring:
                     paths: /**
 # MyBatis
 mybatis:
-    type-aliases-package: com.zyd.music.persistence.beans
+    type-aliases-package: me.zhyd.music.persistence.beans
     mapper-locations: classpath:/mybatis/*.xml
 # mapper
 mapper:
     mappers:
-        - com.zyd.music.plugin.BaseMapper
+        - me.zhyd.music.plugin.BaseMapper
     not-empty: false
     identity: MYSQL
 # pagehelper

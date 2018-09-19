@@ -1,13 +1,12 @@
 <#include "include/macros.ftl">
 
-<@header title="My音乐馆 - 张亚东博客" keywords="张学友,伍佰,怀旧音乐,80后,90后,轻音乐,纯音乐,节奏,旋律,治愈" description="My音乐馆 - 张亚东博客">
-</@header>
+<@header title="高山流水遇知音 - 张亚东博客" keywords="高山流水遇知音，十面埋伏断弦琴" description="高山流水遇知音 - 张亚东博客"></@header>
 
 <div id="background">
     <canvas id="canvas"></canvas>
 </div>
 <div class="box">
-    <div id="top">My音乐馆&nbsp;&nbsp;|&nbsp;&nbsp;music.zhyd.me</div>
+    <div id="top">高山流水遇知音&nbsp;&nbsp;|&nbsp;&nbsp;music.zhyd.me</div>
     <div id="player">
         <div class="cover"></div>
         <div class="ctrl">

@@ -3,13 +3,14 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=600px,initial-scal=1,user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <title>${title}</title>
     <meta name="keywords" content="${keywords}"/>
     <meta name="description" content="${description}"/>
-    <link rel="shortcut icon" href="/images/favicon.ico">
+    <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="/css/zhyd.music.core.css">
     <#nested>
 </head>
