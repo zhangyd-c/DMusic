@@ -1,41 +1,21 @@
 # DMusic
 
-DMusic是使用Springboot开发的、下载即可用、简单大气上档次的个人音乐博客 [网站预览](http://music.zhyd.me)
+DMusic是使用Springboot开发的、下载即可用、简单大气上档次的个人音乐博客 [网站预览](http://music.zhyd.me)，没有之一！
 
-### 开发环境
-
-| 工具 | 版本或描述 |  
-|-----|-----|  
-| OS | Windows 7 |  
-| JDK | 1.7+ |  
-| IDE | IntelliJ IDEA 2017.3 |  
-| Maven | 3.3.1 |  
-| Springboot | 1.5.9.RELEASE |  
-
-### 模块依赖
-
-| 模块 | 释义 |  
-|-----|-----|  
-| music-core | 项目核心包，提供基本的数据访问、工具处理等 |  
-| music-web | 前端页面模块，依赖于music-core，主要为 controller -> html |  
-
-### 页面预览
+## 页面预览
 
 ![首页](docs/img/music-index.png)
 ![列表](docs/img/music-list.png)
 
-
 ## 生命不息，折腾不止！
-### 更多信息，请关注：
+## 更多信息，请关注：
 1. [我的博客](https://www.zhyd.me)
 2. [我的微博](http://weibo.com/211230415)
 3. [我的头条号](http://www.toutiao.com/c/user/3286958681/)
 4. [我的mooc](http://www.imooc.com/u/1175248/articles)
 
-### 有任何问题可以
+## 有任何问题可以
 - [给我留言](https://www.zhyd.me/guestbook)
-
-### 如果喜欢，请多多分享、多多Star
 
 ## 特别声明：
 1. 本源代码不用于任何商业途径，不收任何费用，只用于技术学习探讨，旨在与有共同爱好的朋友交流，交流QQ群：190886500。
